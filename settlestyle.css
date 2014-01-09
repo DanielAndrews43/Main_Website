@@ -1,0 +1,77 @@
+.site_links{
+    padding-right:1em;
+    margin-top:1em;
+    float:left;
+    clear:both;
+}
+h1{
+    margin:auto;
+    text-align:center;
+    
+}
+body{
+    background-color:black;
+    color:aqua;
+}
+#settlers{
+    position:absolute;
+    right:1em;
+    left:1em;
+    height:35em;
+    border:aqua 2px solid;
+}
+.bar{
+    width:6em;
+    background-color:aqua;
+    position:relative;
+    margin-bottom:-30em;
+    margin-left:11.67em;
+    display:inline-block;
+    border-radius:20px;
+    top:0;right:0;
+}
+#daniel{
+    position:relative;
+}
+#boaz{
+    
+}
+#josh{
+    
+}
+.under{
+    position:absolute;
+    bottom:-3em;
+    width:100%;
+    text-align:center;
+    color:gray;
+    display:inline-block;
+}
+.scoreWrap1{
+    display:table;
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+.scoreWrap2{
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+}
+.score{
+    color:white;
+    font-size:2em;
+    width:100%;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+}
+#dscore{
+    
+}
+#bscore{
+    
+}
+#jscore{
+    
+}
