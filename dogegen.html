@@ -1,0 +1,67 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>Doge Phrase Generator</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <style type="text/css">
+        h1{text-align:center;font-size:3em;}
+        #phrase{text-align:center;font-size:3em;}
+        #button{text-align:center;}
+        #reddit{text-align:center;}
+    </style>
+    <script type="text/javascript">
+        phrases = [
+            "Much Doge",
+            "Many Coin",
+            "Very Crypto",
+            "So profit",
+            "Too Doge",
+            "Many Thanks",
+            "Very Community",
+            "Such Generous",
+            "Much Amaze",
+            "Wow",
+            "Much Kind",
+            "How Money",
+            "Such Profit",
+            "Such Currency",
+            "Plz Mine",
+            "1 doge = 1 doge",
+            "Dogecoin 4ever",
+            "1 community = 1 community",
+            "1 shibe = 1 shibe",
+            "To The Moooooon!"
+        ]
+        colors = ["red","orange","yellow","green","blue","purple"];
+        $(document).ready(function () {
+            $("button").click(function () {
+                var next = phrases[(Math.floor(Math.random()*phrases.length))];
+                var col = colors[Math.floor(Math.random()*colors.length)];
+                $("p").text(next);
+                $("p").css("color", col);
+            });
+        });
+    </script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-48539747-1', 'twoshorts.net');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <h1>Doge Phrase Generator</h1>
+    <div id="phrase">
+        <p>TO THE MOOOOON</p>
+    </div>
+    <div id="button">
+        <button>Next</button>
+    </div>
+    <br />
+    <div id="reddit">
+        <a href="http://google.com/">Make Suggestions or Comments</a>
+    </div>
+</body>
+</html>
